@@ -1,0 +1,7 @@
+### Phân biệt **Copyleft** và **Copyright**:
+
+| **Tiêu chí**       | **Copyleft**                                     | **Copyright**                                  |
+|--------------------|--------------------------------------------------|------------------------------------------------|
+| **Mục đích**       | Bảo vệ quyền tự do chia sẻ, sửa đổi phần mềm.    | Bảo vệ quyền sở hữu trí tuệ, hạn chế sao chép. |
+| **Quyền**          | Yêu cầu các bản phái sinh giữ nguyên giấy phép.  | Chủ sở hữu kiểm soát việc sao chép, phân phối. |
+| **Sử dụng**        | Khuyến khích chia sẻ và phát triển công khai.    | Hạn chế sử dụng nếu không có sự cho phép.      |

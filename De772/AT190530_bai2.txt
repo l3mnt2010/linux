@@ -1,0 +1,12 @@
+### Phân biệt lệnh **cat**, **more**, và **less**:
+
+| **Lệnh** | **Mục đích**                              | **Tính năng chính**                                                                                   | **Khi nào dùng?**                                |
+|----------|-------------------------------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| **cat**  | Hiển thị nội dung file.                   | - Hiển thị toàn bộ nội dung file trong một lần.                                                       | Khi cần xem file ngắn hoặc kết hợp với lệnh khác.|
+| **more** | Xem nội dung file từng trang.             | - Hiển thị nội dung theo từng trang. <br> - Dùng phím **Space** để chuyển trang, **q** để thoát.      | Khi file dài, cần xem tuần tự.                   |
+| **less** | Xem nội dung file linh hoạt hơn **more**. | - Có thể cuộn lên, cuộn xuống. <br> - Hỗ trợ tìm kiếm với **/keyword**. <br> - Dùng **q** để thoát.   | Khi file rất dài, cần xem chi tiết hoặc tìm kiếm.|
+
+### Tổng kết:
+- **cat**: Xem nhanh file ngắn.  
+- **more**: Xem từng trang, nhưng chỉ cuộn xuống.  
+- **less**: Linh hoạt hơn, cuộn lên xuống và tìm kiếm.

@@ -1,0 +1,17 @@
+Khi cài đặt hệ điều hành Linux, thông thường cần ít nhất 2 phân vùng (partitions):
+
+- Phân vùng root (/):
+
+Đây là phân vùng bắt buộc chứa toàn bộ hệ thống file và dữ liệu của hệ điều hành.
+Kích thước thường phụ thuộc vào nhu cầu sử dụng, nhưng tối thiểu nên là 20-30 GB.
+
+- Phân vùng swap:
+
+Được sử dụng như bộ nhớ ảo khi RAM không đủ.
+Kích thước thường gấp 1-2 lần dung lượng RAM, tùy thuộc vào cấu hình hệ thống.
+Ngoài ra, có thể tạo thêm các phân vùng khác:
+
+/boot: Lưu trữ các file khởi động (không bắt buộc, nhưng khuyến nghị nếu hệ thống sử dụng UEFI).
+/home: Lưu trữ dữ liệu cá nhân của người dùng, giúp dễ dàng bảo trì và nâng cấp hệ thống mà không mất dữ liệu.
+/var, /usr, /tmp: Dùng trong các hệ thống đặc biệt hoặc yêu cầu quản lý dữ liệu tách biệt.
+Tuy nhiên, ít nhất 2 phân vùng là đủ để cài đặt và chạy Linux.

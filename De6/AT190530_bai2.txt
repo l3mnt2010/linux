@@ -1,0 +1,8 @@
+
++ head -10 oss1.txt:
+hiển thị 10 dòng đầu của file oss1.txt
++ tail -20 oss2.txt:
+hiển thị 20 dòng cuối của file oss2.txt
++ tail -f oss3.txt
+hiển thị 
+

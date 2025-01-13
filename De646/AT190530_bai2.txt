@@ -1,0 +1,16 @@
+- locate "*.txt": tìm kiếm tất cả các tệp có phần mở rộng .txt trong hệ thống
+ dựa trên cơ sở dữ liệu đã được xây dựng sẵn
+
+- Lệnh locate "/user/oss/*linux" tìm kiếm tất cả các tệp hoặc thư mục có đường dẫn bắt đầu bằng /user/oss/ và
+ kết thúc với tên chứa linux trong hệ thống, dựa trên cơ sở dữ liệu đã được cập nhật.
+
+- Lệnh find -name "*pdf" tìm kiếm tất cả các tệp có tên kết thúc bằng .pdf trong thư mục hiện tại
+ và các thư mục con. Lệnh này sử dụng tìm kiếm theo tên tệp (-name) với mẫu *pdf (tất cả các tệp
+ có phần mở rộng .pdf).
+
+
+
+=======================================Different=========================================
+
+find: Tìm kiếm trực tiếp trong hệ thống tệp, phản ánh trạng thái hiện tại nhưng có thể chậm hơn.
+locate: Tìm kiếm trong cơ sở dữ liệu đã được cập nhật, nhanh hơn nhưng có thể không phản ánh các thay đổi gần đây.

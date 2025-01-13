@@ -1,0 +1,18 @@
+### So sánh các nhóm giấy phép bản quyền tự do và sự khác nhau giữa GPL và BSD
+
+#### Nhóm giấy phép GPL (GNU General Public License):
+- Yêu cầu bảo toàn quyền tự do sử dụng, sửa đổi và phân phối.
+- Khi phân phối lại hoặc sửa đổi mã nguồn, phần mềm phải giữ nguyên giấy phép GPL.
+- Hiệu ứng "copyleft": Yêu cầu các phần mềm phái sinh cũng phải tuân thủ GPL.
+
+#### Nhóm giấy phép BSD (Berkeley Software Distribution):
+- Cho phép sử dụng, sửa đổi và phân phôi mã nguồn tự do.
+- Không yêu cầu phần mềm phái sinh phải giữ nguyên giấy phép BSD.
+- Chỉ cần giữ lại thông báo bản quyền trong mã nguồn hoặc tài liệu phân phối.
+
+### Sự khác nhau giữa GPL và BSD:
+| **Tiêu chí**          | **GPL**                                   | **BSD**                           |
+|-----------------------|-------------------------------------------|-----------------------------------|
+| **Copyleft**          | Mạnh (yêu cầu giữ nguyên GPL)             | Yếu (không bắt buộc giữ giấy phép)|
+| **Sử dụng thương mại**| Cho phép nhưng phải giữ GPL               | Tự do, kể cả mã nguồn đóng        |
+| **Hạn chế**           | Nhiều hơn, để bảo vệ tự do phần mềm       | Ít hơn, tập trung vào sự linh hoạt|
